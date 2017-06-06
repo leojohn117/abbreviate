@@ -1,5 +1,12 @@
 const abbreviate = require('./abbreviate');
 
+console.log('Before => ' + undefined + ' After => ' + abbreviate(undefined));
+
+console.log('Before => ' + null + ' After => ' + abbreviate(null));
+
+const string0 = ''
+console.log('Before => ' + string0 + ' After => ' + abbreviate(string0));
+
 const string = 'internationalization';
 console.log('Before => ' + string + ' After => ' + abbreviate(string));
 
